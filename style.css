@@ -36,12 +36,12 @@ p
 .banner .content p
 {
     font-size: 1em;
-    color: #000;
+    color: #2B0D25;
 }
 .btn
 {
     font-size: 1em;
-    color: #fff;
+    color: #f4eee5;
     background: #8d3a39;
     display: inline-block;
     padding: 10px 30px;
@@ -70,13 +70,13 @@ header
 }
 header.sticky
 {
-    background: #fff;
+    background: #f4eee5;
     padding: 10px 100px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.05);
 }
 header .logo
 {
-    color: #fff;
+    color: #f4eee5;
     font-weight: 700;
     font-size: 2em;
     text-decoration: none;
@@ -102,7 +102,7 @@ header .navigation li
 header .navigation li a
 {
     text-decoration: none;
-    color: #fff;
+    color: #f4eee5;
     font-weight: 300;
 }
 header.sticky .navigation li a
