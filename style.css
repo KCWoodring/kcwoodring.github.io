@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Nunito', semi-bold;
     scroll-behavior: smooth;
+}
+body
+{
     background-color: #f4eee5
 }
 p
@@ -17,11 +20,10 @@ p
 {
     position: relative;
     width: 100%;
-    min-height: 50vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f7cbb8;
     /*background: url(Camera.jpg);*/
     background-size: cover;
 }
