@@ -7,6 +7,11 @@
     font-family: 'Nunito', semi-bold;
     scroll-behavior: smooth;
 }
+@font-face 
+{
+  font-family: Notedry;
+  src: url(Notedry.ttf);
+}
 body
 {
     background-color: #f4eee5
@@ -35,6 +40,7 @@ p
 .banner .content h2
 {
     font-size: 5em;
+    font-family: Notedry;
     color: #2B0D25;
 }
 .banner .content p
