@@ -17,10 +17,11 @@ p
 {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f7cbb8;
     /*background: url(Camera.jpg);*/
     background-size: cover;
 }
