@@ -96,12 +96,11 @@ p
 {
   content: "\2212";
 }
-
 .content 
 {
     padding: 0 18px;
     max-height: 0;
-    border: 2px solid #f7cbb8;
+    overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #f4eee5;
 }
