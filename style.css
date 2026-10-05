@@ -100,7 +100,7 @@ p
 .content 
 {
     padding: 0 18px;
-    max-height: null;
+    max-height: 0;
     border: 2px solid #f7cbb8;
     transition: max-height 0.2s ease-out;
     background-color: #f4eee5;
