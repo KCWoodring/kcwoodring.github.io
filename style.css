@@ -125,18 +125,18 @@ header .logo span
 header.navigation
 {
     position: relative;
-    display: inline-block;
 }
 header .navigation li
 {
     list-style: none;
     margin-left: 30px;
+    display: inline-block;
 }
 header .navigation li a
 {
     text-decoration: none;
     color: #f4eee5;
-    font-weight: 300;
+    font-weight: 600;
 }
 header.sticky .navigation li a
 {
