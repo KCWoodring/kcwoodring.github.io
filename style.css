@@ -101,10 +101,10 @@ p
 {
     padding: 0 18px;
     max-height: null;
+    border: 2px solid #f7cbb8;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #f4eee5;
-    border: 2px solid #f7cbb8;
 }
 header
 {
