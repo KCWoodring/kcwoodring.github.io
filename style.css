@@ -18,7 +18,7 @@ body
 }
 p
 {
-    font-weight: 300;
+    font-weight: 600;
     color: #111;
 }
 .banner
@@ -175,6 +175,7 @@ section
 
 ul 
 {
-  list-style-image: url("StarBullet.png");
-  list-style-type: square;
+    list-style-image: url("StarBullet.png");
+    list-style-type: square;
+    color: #2B0D25;
 }
