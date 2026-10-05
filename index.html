@@ -8,6 +8,7 @@
 </head>
 <body>
     <div class="popup" style={{visibility: this.state.visibility }}>
+        <button type="button" class="btn" onclick="exitpreview()"> Leave PopUp</button>
     	<div class="GGX">
         	<p>Hello</p>
         </div>
@@ -153,6 +154,11 @@
         {
             const elements = document.querySelectorAll('.popup');
             elements.forEach(element => {element.style.visibility='visible';});
+        }
+        function exitpreview()
+        {
+            const elements = document.querySelectorAll('.popup');
+            elements.forEach(element => {element.style.visibility='hidden';});
         }
     </script>
 </body>
