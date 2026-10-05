@@ -88,9 +88,9 @@ p
   font-size: 15px;
 }
 
-.collapsible:hover 
+.collapsible:hover:after
 {
-  background-color: #8d3a39;
+  color: #8d3a39;
 }
 
 .collapsible:after 
