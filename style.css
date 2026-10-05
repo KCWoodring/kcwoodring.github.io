@@ -102,7 +102,7 @@ header .logo span
 header.navigation
 {
     position: relative;
-    display: block;
+    display: inline-block;
 }
 header .navigation li
 {
