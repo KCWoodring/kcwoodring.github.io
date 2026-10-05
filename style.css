@@ -177,6 +177,19 @@ header.sticky .navigation li a:hover
 {
     color: #8d3a39;
 }
+.popup
+{
+  width: 120px;
+  height: 120px;
+  background: tomato;
+  z-index: 999;
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  visibility: hidden;
+}
 section
 {
     padding: 100px;
