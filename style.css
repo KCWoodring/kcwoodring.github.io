@@ -141,8 +141,9 @@ section
 }
 .personalAbout
 {
-  display: flex;
-  justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
+    margtin-top: 0;
 }
 .titleText
 {
