@@ -78,7 +78,7 @@ p
   font-size: 15px;
 }
 
-.active, .collapsible:hover 
+.collapsible:hover 
 {
   background-color: #8d3a39;
 }
@@ -86,7 +86,6 @@ p
 .collapsible:after 
 {
   content: '\002B';
-  background-color: #f7cbb8;
   color: white;
   font-weight: bold;
   float: right;
