@@ -167,3 +167,9 @@ section
     height: 300px;
     object-fit: cover;
 }
+
+ul 
+{
+  list-style-image: url("StarBullet.png");
+  list-style-type: square;
+}
