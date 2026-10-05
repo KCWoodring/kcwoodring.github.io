@@ -48,6 +48,16 @@ p
     font-size: 1em;
     color: #2B0D25;
 }
+.box
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 200px;
+  flex-direction: column; /* Stacks items vertically */
+  gap: 10px;
+}
 .btn
 {
     font-size: 1em;
