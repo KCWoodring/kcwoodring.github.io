@@ -131,13 +131,13 @@
             {
                 this.classList.toggle("active");
                 var content = this.nextElementSibling;
-                if (content.style.visibility === "visible")
+                if (content.style.maxHeight)
                     {
-                      content.style.visibility = hidden;
+                      content.style.maxHeight = null;
                     } 
                 else 
                 {
-                    content.style.visibility = visible;
+                    content.style.maxHeight = content.scrollHeight + "px";
                 }
             });
         }
