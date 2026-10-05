@@ -103,6 +103,8 @@ p
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #f4eee5;
+    border-style:solid;
+    border-color:#f7cbb8;
 }
 header
 {
