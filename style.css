@@ -86,6 +86,7 @@ p
 .collapsible:after 
 {
   content: '\002B';
+  background-color: #f7cbb8;
   color: white;
   font-weight: bold;
   float: right;
