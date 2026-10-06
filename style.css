@@ -179,9 +179,9 @@ header.sticky .navigation li a:hover
 }
 .popup
 {
-  width: 120px;
-  height: 120px;
-  background: tomato;
+  width: 500px;
+  height: 500px;
+  background: #f7cbb8;
   z-index: 999;
   position: fixed;
   inset: 0;
@@ -189,6 +189,7 @@ header.sticky .navigation li a:hover
   display: grid;
   place-items: center;
   visibility: hidden;
+  overflow: hidden;
 }
 section
 {
