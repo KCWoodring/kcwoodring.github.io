@@ -189,7 +189,7 @@ header.sticky .navigation li a:hover
   display: grid;
   place-items: center;
   visibility: hidden;
-  overflow: hidden;
+  overflow: scroll;
 }
 section
 {
