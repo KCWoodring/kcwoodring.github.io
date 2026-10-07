@@ -16,6 +16,34 @@
             <li>Snow- Getting food before the snow started</li>
             <li>Parking- Discussing face to face with parking attendant, working with security and police to have number to open door, gathering tickets</li> 
         </div>
+        <div class="GGX" style="padding: 30px" style={{display: this.state.display }}>
+        	<h1>Georgia Game Development Expo</h1>
+            <h2>At A Glance</h2>
+        	<p>Description</p>
+            <h2>Challenges Faced/Solutions Implemented</h2>
+            <li>Challenge- Solution</li>
+        </div>
+        <div class="scarycrab" style="padding: 30px" style={{display: this.state.display }}>
+        	<h1>Scary Crab</h1>
+            <h2>At A Glance</h2>
+        	<p>Description</p>
+            <h2>Challenges Faced/Solutions Implemented</h2>
+            <li>Challenge- Solution</li>
+        </div>
+        <div class="pantherdev" style="padding: 30px" style={{display: this.state.display }}>
+        	<h1>PantherDev</h1>
+            <h2>At A Glance</h2>
+        	<p>Description</p>
+            <h2>Challenges Faced/Solutions Implemented</h2>
+            <li>Challenge- Solution</li>
+        </div>
+        <div class="laughattack" style="padding: 30px" style={{display: this.state.display }}>
+        	<h1>Laugh Attack</h1>
+            <h2>At A Glance</h2>
+        	<p>Description</p>
+            <h2>Challenges Faced/Solutions Implemented</h2>
+            <li>Challenge- Solution</li>
+        </div>
         <button type="button" onclick="exitpreview()">Return To Projects</button>
     </div>
     
@@ -82,16 +110,24 @@
                 <p>Outreach</p>
             </div>
             <div class="box">
-            	<a href="https://www.w3schools.com/howto/howto_js_collapsible.asp" class="btn" onclick="window.open(this.href)"> Georgia Game Development Expo</a>
+                <button type="button" class="btn" onclick="georgiaGameDevelopmentExpo()"> Georgia Game Development Expo</button>
+                <p>Marketing</p>
+                <p>Outreach</p>
             </div>
             <div class="box">
-                <a href="https://www.w3schools.com/howto/howto_js_collapsible.asp" class="btn" onclick="window.open(this.href)"> Scary Crab</a>
+                <button type="button" class="btn" onclick="scaryCrab()"> Scary Crab</button>
+                <p>Marketing</p>
+                <p>Outreach</p>
             </div>
             <div class="box">
-                <a href="https://www.w3schools.com/howto/howto_js_collapsible.asp" class="btn" onclick="window.open(this.href)"> PantherDev</a>
+                <button type="button" class="btn" onclick="pantherDev()"> PantherDev</button>
+                <p>Marketing</p>
+                <p>Outreach</p>
             </div>
             <div class="box">
-                <a href="https://www.w3schools.com/howto/howto_js_collapsible.asp" class="btn" onclick="window.open(this.href)"> Laugh Attack</a>
+                <button type="button" class="btn" onclick="laughAttack()"> Laugh Attack</button>
+                <p>Marketing</p>
+                <p>Outreach</p>
             </div>
         </div>
     </section>
@@ -131,6 +167,38 @@
             
             const ggjs = document.querySelectorAll('.GGJ26');
             ggjs.forEach(ggj => {ggj.style.display='grid';});
+        }
+        function georgiaGameDevelopmentExpo()
+        {
+            const elements = document.querySelectorAll('.popup');
+            elements.forEach(element => {element.style.visibility='visible';});
+            
+            const ggxs = document.querySelectorAll('.GGX');
+            ggxs.forEach(ggx => {ggx.style.display='grid';});
+        }
+        function scaryCrab()
+        {
+            const elements = document.querySelectorAll('.popup');
+            elements.forEach(element => {element.style.visibility='visible';});
+            
+            const scarycrabs = document.querySelectorAll('.scarycrab');
+            scarycrabs.forEach(scarycrab => {scarycrab.style.display='grid';});
+        }
+        function pantherDev()
+        {
+            const elements = document.querySelectorAll('.popup');
+            elements.forEach(element => {element.style.visibility='visible';});
+            
+            const pantherdevs = document.querySelectorAll('.pantherdev');
+            pantherdevs.forEach(pantherdev => {pantherdev.style.display='grid';});
+        }
+        function laughAttack()
+        {
+            const elements = document.querySelectorAll('.popup');
+            elements.forEach(element => {element.style.visibility='visible';});
+            
+            const laughattacks = document.querySelectorAll('.laughattack');
+            laughattacks.forEach(laughattack => {laughattack.style.display='grid';});
         }
         function exitpreview()
         {
