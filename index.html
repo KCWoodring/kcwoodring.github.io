@@ -44,6 +44,13 @@
             <h2>Challenges Faced/Solutions Implemented</h2>
             <li>Challenge- Solution</li>
         </div>
+        <div class="georgiadev" style="padding: 30px" style={{display: this.state.display }}>
+        	<h1>GeorgiaDev</h1>
+            <h2>At A Glance</h2>
+        	<p>Description</p>
+            <h2>Challenges Faced/Solutions Implemented</h2>
+            <li>Challenge- Solution</li>
+        </div>
         <button type="button" onclick="exitpreview()">Return To Projects</button>
     </div>
     
@@ -125,6 +132,11 @@
                 <p>Outreach</p>
             </div>
             <div class="box">
+                <button type="button" class="btn" onclick="georgiaDev()"> GeorgiaDev</button>
+                <p>Marketing</p>
+                <p>Outreach</p>
+            </div>
+            <div class="box">
                 <button type="button" class="btn" onclick="laughAttack()"> Laugh Attack</button>
                 <p>Marketing</p>
                 <p>Outreach</p>
@@ -184,6 +196,14 @@
             const scarycrabs = document.querySelectorAll('.scarycrab');
             scarycrabs.forEach(scarycrab => {scarycrab.style.display='grid';});
         }
+        function georgiaDev()
+        {
+            const elements = document.querySelectorAll('.popup');
+            elements.forEach(element => {element.style.visibility='visible';});
+            
+            const georgiadevs = document.querySelectorAll('.georgiadev');
+            georgiadevs.forEach(georgiadev => {georgiadev.style.display='grid';});
+        }
         function pantherDev()
         {
             const elements = document.querySelectorAll('.popup');
@@ -219,6 +239,9 @@
             
             const laughattacks = document.querySelectorAll('.laughattack');
             laughattacks.forEach(laughattack => {laughattack.style.display='none';});
+            
+            const georgiadevs = document.querySelectorAll('.georgiadev');
+            georgiadevs.forEach(georgiadev => {georgiadev.style.display='none';});
         }
     </script>
 </body>
