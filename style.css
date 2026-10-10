@@ -179,8 +179,8 @@ header.sticky .navigation li a:hover
 }
 .popup
 {
-  width: 500px;
-  height: 500px;
+  width: 50%;
+  height: 50%;
   background: #f7cbb8;
   z-index: 999;
   position: fixed;
