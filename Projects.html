@@ -87,5 +87,142 @@
     </header>
     <section class="banner" id="banner">
     </section>
+<section class="menu" id="menu">
+        <button type="button" class="collapsible"><h2 class="titleText">My Projects</h2></button>
+        <div class="content">
+            <div class="box">
+                <button type="button" class="btn" onclick="globalGameJam()"> Global Game Jam 2026</button>
+                <p>Marketing</p>
+                <p>Outreach</p>
+            </div>
+            <div class="box">
+                <button type="button" class="btn" onclick="georgiaGameDevelopmentExpo()"> Georgia Game Development Expo</button>
+                <p>Marketing</p>
+                <p>Outreach</p>
+            </div>
+            <div class="box">
+                <button type="button" class="btn" onclick="scaryCrab()"> Scary Crab</button>
+                <p>Marketing</p>
+                <p>Outreach</p>
+            </div>
+            <div class="box">
+                <button type="button" class="btn" onclick="pantherDev()"> PantherDev</button>
+                <p>Marketing</p>
+                <p>Outreach</p>
+            </div>
+            <div class="box">
+                <button type="button" class="btn" onclick="georgiaDev()"> GeorgiaDev</button>
+                <p>Marketing</p>
+                <p>Outreach</p>
+            </div>
+            <div class="box">
+                <button type="button" class="btn" onclick="laughAttack()"> Laugh Attack</button>
+                <p>Marketing</p>
+                <p>Outreach</p>
+            </div>
+        </div>
+    </section>
 
+    <script type="text/javascript">
+        window.addEventListener("scroll", function() {
+            const header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        for (i = 0; i < coll.length; i++) 
+        {
+            coll[i].addEventListener("click", function()
+            {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight)
+                    {
+                      content.style.maxHeight = null;
+                    } 
+                else 
+                {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+
+    <script>
+        function globalGameJam()
+        {
+            const elements = document.querySelectorAll('.popup');
+            elements.forEach(element => {element.style.visibility='visible';});
+            
+            const ggjs = document.querySelectorAll('.GGJ26');
+            ggjs.forEach(ggj => {ggj.style.display='grid';});
+        }
+        function georgiaGameDevelopmentExpo()
+        {
+            const elements = document.querySelectorAll('.popup');
+            elements.forEach(element => {element.style.visibility='visible';});
+            
+            const ggxs = document.querySelectorAll('.GGX');
+            ggxs.forEach(ggx => {ggx.style.display='grid';});
+        }
+        function scaryCrab()
+        {
+            const elements = document.querySelectorAll('.popup');
+            elements.forEach(element => {element.style.visibility='visible';});
+            
+            const scarycrabs = document.querySelectorAll('.scarycrab');
+            scarycrabs.forEach(scarycrab => {scarycrab.style.display='grid';});
+        }
+        function georgiaDev()
+        {
+            const elements = document.querySelectorAll('.popup');
+            elements.forEach(element => {element.style.visibility='visible';});
+            
+            const georgiadevs = document.querySelectorAll('.georgiadev');
+            georgiadevs.forEach(georgiadev => {georgiadev.style.display='grid';});
+        }
+        function pantherDev()
+        {
+            const elements = document.querySelectorAll('.popup');
+            elements.forEach(element => {element.style.visibility='visible';});
+            
+            const pantherdevs = document.querySelectorAll('.pantherdev');
+            pantherdevs.forEach(pantherdev => {pantherdev.style.display='grid';});
+        }
+        function laughAttack()
+        {
+            const elements = document.querySelectorAll('.popup');
+            elements.forEach(element => {element.style.visibility='visible';});
+            
+            const laughattacks = document.querySelectorAll('.laughattack');
+            laughattacks.forEach(laughattack => {laughattack.style.display='grid';});
+        }
+        function exitpreview()
+        {
+            const elements = document.querySelectorAll('.popup');
+            elements.forEach(element => {element.style.visibility='hidden';});
+            
+            const ggjs = document.querySelectorAll('.GGJ26');
+            ggjs.forEach(ggj => {ggj.style.display='none';});
+            
+            const ggxs = document.querySelectorAll('.GGX');
+            ggxs.forEach(ggx => {ggx.style.display='none';});
+            
+            const scarycrabs = document.querySelectorAll('.scarycrab');
+            scarycrabs.forEach(scarycrab => {scarycrab.style.display='none';});
+            
+            const pantherdevs = document.querySelectorAll('.pantherdev');
+            pantherdevs.forEach(pantherdev => {pantherdev.style.display='none';});
+            
+            const laughattacks = document.querySelectorAll('.laughattack');
+            laughattacks.forEach(laughattack => {laughattack.style.display='none';});
+            
+            const georgiadevs = document.querySelectorAll('.georgiadev');
+            georgiadevs.forEach(georgiadev => {georgiadev.style.display='none';});
+        }
+    </script>
+</body>
+</html>
 
