@@ -182,7 +182,7 @@ header.sticky .navigation li a:hover
   width: 50%;
   height: 50%;
   background: #f7cbb8;
-  z-index: 999;
+  z-index: 1500;
   position: fixed;
   inset: 0;
   margin: auto;
